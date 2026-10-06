@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Advogado em Guarapuava. Atendimento online e presencial para questões trabalhistas, INSS e mais.">
+  <title>Advogado Trabalhista em Guarapuava</title>
+  <link rel="canonical" href="https://rcamargo.adv.br/">
+  <link rel="icon" href="favicon.webp" type="image/webp">
+  <link rel="apple-touch-icon" href="favicon.png">
+
+
+
+  <style>
+
+body {
+    background-color: #000; /* Fundo preto padrão (mobile) */
+    margin: 0;
+    padding: 0;
+}
+
+.seo {
+	font-size: 0.7rem;
+	color: #c7b68e;
+}
+
+/* Aplica a imagem de fundo apenas em telas maiores que 768px */
+@media (min-width: 768px) {
+    body {
+        background-image: url('advogado-em-guarapuava.webp');
+        background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+        background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        background-color: #000; /* Mant?m o contraste durante o carregamento da imagem */
+    }
+}
+
+	
+	/* Página */
+    body {
+	  
+	  margin: 0;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      font-family: 'Georgia', serif;
+      color: #fff;
+    }
+	
+@media (max-width: 768px) { /* Aplica somente no modo responsivo */
+  html, body {
+    overflow: auto; /* Permite a rolagem */
+    -ms-overflow-style: none; /* Remove o scroll no IE e Edge */
+    scrollbar-width: none; /* Remove o scroll no Firefox */
+  }
+
+  html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none; /* Remove o scroll no Chrome, Safari e Edge */
+  }
+}
+
+
+
+    /* Container Principal */
+    .main-container {
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Logotipo */
+    .logotipo img {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+
+    /* Título Principal */
+    .titulo {
+      font-size: 2rem;
+      background: linear-gradient(90deg, #b08742, #fbee9b, #e5b669);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 40px 0 20px 0;
+	  font-family: 'Georgia';
+    }
+	
+	.faq-title {
+      font-size: 2rem;
+      background: linear-gradient(90deg, #b08742, #fbee9b, #e5b669);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 40px 0 20px 0;
+    }
+
+    /* Subtítulo */
+    .subtitulo {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Botões */
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+	
+	.btn-instagram {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #C13584;
+      border-radius: 100%;
+      font-size: 25px;
+	  text-align: center;
+	  margin: 0 auto;
+	  width: 50px;
+	  height: 50px;
+    }
+
+    .btn-whatsapp {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      background-color: #1b8e46;
+      padding: 15px 25px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+      animation: zoomEffect 5s infinite; /* Animação de zoom */
+      transition: transform 0.3s;
+    }
+
+    .btn-whatsapp .icon {
+      margin-right: 8px;
+    }
+
+    .btn-whatsapp:hover {
+      transform: scale(1.1);
+	  background-color: #24b058;
+    }
+
+    /* Informações */
+    .info-container {      
+	  display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+      font-size: 1rem;
+      font-family: 'Arial', sans-serif;
+	  padding: 30px;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .info-item .icon {
+      color: #DAA520;
+    }
+
+   .image-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) { /* Ajusta para telas menores que 768px */
+  .image-container {
+    width: 210px;
+    height: 210px;
+  }
+}
+
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .image-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      box-shadow: 
+        3px 0 4px 2px rgba(255, 215, 0, 1.0),
+        -3px 0 4px 2px rgba(0, 0, 0, 1.0);
+      filter: blur(3px);
+      z-index: 1;
+      animation: rotate-light 4s linear infinite;
+    }
+
+    @keyframes zoomEffect {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes rotate-light {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+	
+	 /* Estilo para o FAQ */
+  .faq-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #4c4c4c;
+    margin-bottom: 10px;
+  }
+
+  .faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline-offset: 4px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .faq-question:hover {
+    background: #000;
+  }
+
+  .faq-question .icon {
+    transition: transform 0.3s ease;
+  }
+
+  .faq-answer {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 15px;
+    color: #fff;
+    background: #222;
+    transition: max-height 0.3s ease;
+    font-size: 0.9rem;
+  }
+
+  .faq-answer p {
+    margin: 15px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 23px;
+  }
+	
+	
+/* COR DA BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* Cor de fundo da área de rastreamento */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #b08742, #fbee9b, #e5b669);
+}
+	
+	
+
+    *, *::before, *::after { box-sizing: border-box; }
+    img { max-width: 100%; height: auto; }
+    .logotipo img { height: auto; }
+    .icon { width: 1em; height: 1em; flex-shrink: 0; vertical-align: -0.125em; }
+    .btn-instagram { justify-content: center; }
+    .faq-question { display: grid; grid-template-columns: 1fr auto; gap: 6px 10px; }
+    .faq-question .seo { grid-column: 1; grid-row: 2; }
+    .faq-question .icon { grid-column: 2; grid-row: 1 / span 2; }
+    .faq-question[aria-expanded="true"] .icon { transform: rotate(180deg); }
+    .faq-answer { max-height: none; }
+    .faq-answer[hidden] { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+  
+</head>
+<body>
+
+
+  <main class="main-container">
+    <!-- Logotipo -->
+    <div class="logotipo">
+        <img src="advogado-em-guarapuava-pr.webp" width="600" height="269" decoding="async" fetchpriority="high" alt="Advogado trabalhista em Guarapuava">
+    </div>
+
+	<!-- Imagem com efeito -->
+    <div class="image-container">
+      <img src="advogado-trabalhista-em-guarapuava.webp" width="670" height="692" decoding="async" fetchpriority="high" alt="Advogado trabalhista em Guarapuava">
+    </div>
+
+    <!-- Título -->
+    <h1 class="titulo">Advogado em Guarapuava</h1>
+    <p class="subtitulo">Atendimento <strong>online ou presencial</strong>. Entre em contato para mais informações.</p>
+
+    
+
+    <!-- Botões -->
+    <div class="btn-container">
+      <a href="https://wa.me/5542988388990?text=Ol%C3%A1%2C+Dr.+R%C3%A2nderson.+" class="btn-whatsapp">
+        <svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 11.5a8 8 0 0 1-12 7L3 20l1.5-5a8 8 0 1 1 15.5-3.5Z"/><path d="m8 7 2 3-1 1c1 2 2 3 4 4l1-1 3 2c-1 3-4 2-7 0s-5-6-2-9Z"/></svg> Contato via WhatsApp
+      </a>      
+    </div>
+
+    
+	
+	
+	
+	<!-- FAQ Section -->
+<div class="faq-container" style="width: 80%; padding: 10px; background: transparent; font-family:'Georgia'; margin-top: 50px; margin-bottom: 40px; padding-bottom: 55px; border: 3px solid transparent; border-image: linear-gradient(90deg, #b08742, #fbee9b, #e5b669) 1;">
+  <h2 class="faq-title" style="text-align: center; margin-bottom: 20px; font-size: 1.8rem; color: #DAA520;">Principais áreas de atuação</h2>
+  
+  <!-- Acordeão -->
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="direito-trabalhista">
+      Direito Trabalhista <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado trabalhista em Guarapuava. Atendimento para casos de trabalho sem registro em carteira, FGTS não depositado, verbas rescisórias incorretas, demissões indevidas e outros direitos trabalhistas violados. Defenda seus direitos com orientação jurídica especializada.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="direito-previdenciario">
+      Direito Previdenciário <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado previdenciário em Guarapuava. Atendimento para requerimentos administrativos e judiciais de aposentadoria, benefícios por incapacidade, salário-maternidade e outros direitos previdenciários junto ao INSS. Assessoria completa para garantir o seu benefício com segurança. </p>
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="beneficio-assistencial">
+      Benefício Assistencial BPC-LOAS  <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado especializado em benefício assistencial (BPC/LOAS) para idosos a partir de 65 anos e pessoas com deficiência ou incapacidade. Realização de requerimentos administrativos ou judiciais, com assessoria completa para acesso ao benefício junto ao INSS.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="direito-do-consumidor">
+      Direito do Consumidor  <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado de Direito do Consumidor em Guarapuava. Atendimento jurídico em casos de práticas abusivas, produtos com defeito, serviços inadequados e reparação de danos materiais e morais. Defesa dos direitos do consumidor com foco em soluções rápidas e eficazes.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="familia-e-sucessoes">
+      Família e Sucessões  <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado de Direito de Família e Sucessões em Guarapuava. Atendimento jurídico em pensão alimentícia, divórcios consensuais e litigiosos, além de inventários judiciais e extrajudiciais. Suporte completo para resolver questões familiares com agilidade, sigilo e segurança jurídica.</p>
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="direito-civil">
+      Direito Civil  <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado Cível em Guarapuava. Atendimento jurídico em contratos, indenizações, cobranças e demais questões de direito civil. Assessoria completa para resolução de conflitos e defesa dos seus direitos com segurança e eficiência.</p>
+    </div>
+  </div>
+  
+  <div class="faq-item">
+    <button class="faq-question" type="button" id="assessoria-e-consultoria">
+      Assessoria e Consultoria  <span class="seo">Advogado trabalhista em Guarapuava</span>
+      <svg class="icon icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="faq-answer">
+      <p>Advogado em Guarapuava. Atendimento para pessoas físicas e jurídicas que desejam apenas sanar dúvidas ou obter orientações jurídicas. Consultas com hora marcada, oferecendo análise preventiva e soluções personalizadas para cada situação legal.</p>
+    </div>
+  </div>
+  
+  
+</div>
+
+<img src="whatsapp-advogado-trabalhista-em-guarapuava.webp" width="350" height="363" decoding="async" loading="lazy" alt="Contato via WhatsApp"
+     style="width:300px;display:block;margin:0 auto;
+            -webkit-mask-image:linear-gradient(to bottom, rgba(0,0,0,1) calc(100% - 20px), rgba(0,0,0,0) 100%);
+            mask-image:linear-gradient(to bottom, rgba(0,0,0,1) calc(100% - 70px), rgba(0,0,0,0) 100%);">
+
+
+
+	<h2 class="faq-title" style="padding-left: 30px; padding-right: 30px; text-align: center; margin-top: 0px; margin-bottom: 20px; font-size: 1.8rem; color: #DAA520;">Vamos conversar sobre o seu caso?</h2>
+
+	<p class="subtitulo">Clique no botão abaixo e envie uma mensagem via WhatsApp.</p>
+
+	<div class="btn-container" style="margin-top: 35px;">
+		  <a href="https://wa.me/5542988388990?text=Ol%C3%A1%2C+Dr.+R%C3%A2nderson.+" class="btn-whatsapp">
+			<svg class="icon icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 11.5a8 8 0 0 1-12 7L3 20l1.5-5a8 8 0 1 1 15.5-3.5Z"/><path d="m8 7 2 3-1 1c1 2 2 3 4 4l1-1 3 2c-1 3-4 2-7 0s-5-6-2-9Z"/></svg> Contato via WhatsApp
+		  </a>      
+	</div>
+
+
+	
+
+
+<!-- Informações -->
+    <div class="info-container">
+      <div class="info-item">
+        <svg class="icon icon-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg> Dr. Rânderson
+      </div>
+      <div class="info-item">
+        <svg class="icon icon-id-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="3" width="14" height="19" rx="2"/><path d="M9 3V1h6v2M8 18c0-5 8-5 8 0"/><circle cx="12" cy="10" r="2"/></svg> OAB/PR 105.886
+      </div>
+      <div class="info-item">
+        <svg class="icon icon-phone-alt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m5 3 4 4-2 3c2 4 3 5 7 7l3-2 4 4c-2 5-7 2-12-2S0 5 5 3Z"/></svg> (42) 98838-8990
+      </div>
+      <div class="info-item">
+        <svg class="icon icon-map-marker-alt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 9c0 5-7 12-7 12S5 14 5 9a7 7 0 1 1 14 0Z"/><circle cx="12" cy="9" r="2"/></svg> Guarapuava - PR
+      </div>
+    </div>
+	
+	
+	<div class="btn-instagram" style="margin-top: 15px;">
+      <a id="instagram" aria-label="Instagram do Dr. Rânderson" href="https://www.instagram.com/rander.cns" class="btn-instagram" style="text-align: center;">
+        <svg class="icon icon-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5"/></svg>
+      </a>      
+    </div>
+
+
+
+<script src="script.js" defer></script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Advogado Trabalhista em Guarapuava",
+  "description": "Atendimento online ou presencial para questões trabalhistas, cíveis e previdenciárias.",
+  "image": "https://rcamargo.adv.br/advogado-trabalhista-em-guarapuava.webp",
+  "url": "https://rcamargo.adv.br/"
+}
+</script>
+
+	
+	
+	
+  </main>
+</body>
+</html>
